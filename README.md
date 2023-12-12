@@ -11,7 +11,7 @@ Add following step to the end of your workflow:
 ```yaml
     - name: Get latest tag
       id: latest_tag
-      uses: jacobtomlinson/gha-get-docker-hub-tags@0.1.1
+      uses: jbaddock/gha-get-docker-hub-tags@0.1.0
       with:
         org: 'mysql'  # Docker Hub user or organisation name
         repo: 'mysql-server'  # Docker Hub repository name
